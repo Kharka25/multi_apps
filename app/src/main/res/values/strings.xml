@@ -3,4 +3,9 @@
     <string name="enter_your_name">Enter your name</string>
     <string name="sign_in_button_text">Sign in</string>
     <string name="where_do_you_want_to_visit_text">Where do you want to visit:</string>
+    <string name="planets_button_text">Planets</string>
+    <string name="planets_header">Explore Space Planets</string>
+    <string name="planet_image">Planet Image</string>
+    <string name="planet_name">Planet Name</string>
+    <string name="moon_count">0 Moon</string>
 </resources>

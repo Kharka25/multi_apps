@@ -32,4 +32,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcomeMessage" />
+    <Button
+        android:id="@+id/planetsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="@color/PRIMARY_BLACK"
+        android:text="@string/planets_button_text"
+        android:textSize="24sp"
+        app:cornerRadius="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/homeHeader"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/homeHeader"
+        app:layout_constraintTop_toBottomOf="@+id/homeHeader" />
 </androidx.constraintlayout.widget.ConstraintLayout>

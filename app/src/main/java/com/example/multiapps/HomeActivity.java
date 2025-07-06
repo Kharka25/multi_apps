@@ -2,6 +2,7 @@ package com.example.multiapps;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -10,7 +11,10 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.multiapps.planets.PlanetsActivity;
+
 public class HomeActivity extends AppCompatActivity {
+    Button planetsButton;
     TextView welcomeMessage;
 
     @Override
@@ -23,9 +27,20 @@ public class HomeActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        planetsButton = findViewById(R.id.planetsButton);
         welcomeMessage = findViewById(R.id.welcomeMessage);
+
         Intent intent = getIntent();
         String userName = intent.getStringExtra("username");
         welcomeMessage.setText(String.format("Welcome %s👋🏽", userName));
+
+        planetsButton.setOnClickListener(v -> {
+            goToActivity();
+        });
+    }
+
+    public void goToActivity() {
+        Intent intent = new Intent(this, PlanetsActivity.class);
+        startActivity(intent);
     }
 }
