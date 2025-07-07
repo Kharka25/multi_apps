@@ -9,9 +9,14 @@
     <string name="planet_name">Planet Name</string>
     <string name="moon_count">0 Moon</string>
     <string name="grocery_app_header">Welcome to Grocery Store</string>
-    <string name="grocerys_button_text">Grocerys</string>
+    <string name="grocery_button_text">Grocery</string>
     <string name="grocery_product_name">Product Name</string>
     <string name="product_name">Product Name</string>
     <string name="product_description">Product Description</string>
     <string name="list_header_image">List Header Image</string>
+    <string name="sports_button_text">Sports</string>
+    <string name="sports_app_header_text">Sports Application</string>
+    <string name="sports_header_image">Sports Header Image</string>
+    <string name="sport_image">Sport Image</string>
+    <string name="sport_card_title">Sport Title</string>
 </resources>
