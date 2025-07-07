@@ -12,10 +12,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.multiapps.grocery.GroceryActivity;
 import com.example.multiapps.planets.PlanetsActivity;
+import com.example.multiapps.sports.SportsActivity;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
     Button planetsButton;
     Button grocerysButton;
+    Button sportsButton;
     TextView welcomeMessage;
 
     @Override
@@ -25,10 +27,12 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_home);
         grocerysButton = findViewById(R.id.groceryButton);
         planetsButton = findViewById(R.id.planetsButton);
+        sportsButton = findViewById(R.id.sportsButton);
         welcomeMessage = findViewById(R.id.welcomeMessage);
 
         grocerysButton.setOnClickListener(this);
         planetsButton.setOnClickListener(this);
+        sportsButton.setOnClickListener(this);
 
         Intent intent = getIntent();
         String userName = intent.getStringExtra("username");
@@ -47,6 +51,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             goToActivity(GroceryActivity.class);
         } else if (v.getId() == R.id.planetsButton) {
             goToActivity(PlanetsActivity.class);
+        } else if (v.getId() == R.id.sportsButton) {
+            goToActivity(SportsActivity.class);
         }
     }
 }

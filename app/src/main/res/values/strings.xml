@@ -14,4 +14,6 @@
     <string name="product_name">Product Name</string>
     <string name="product_description">Product Description</string>
     <string name="list_header_image">List Header Image</string>
+    <string name="sports_button_text">Sports</string>
+    <string name="sports_app_header_text">Sports Application</string>
 </resources>
