@@ -3,4 +3,20 @@
     <string name="enter_your_name">Enter your name</string>
     <string name="sign_in_button_text">Sign in</string>
     <string name="where_do_you_want_to_visit_text">Where do you want to visit:</string>
+    <string name="planets_button_text">Planets</string>
+    <string name="planets_header">Explore Space Planets</string>
+    <string name="planet_image">Planet Image</string>
+    <string name="planet_name">Planet Name</string>
+    <string name="moon_count">0 Moon</string>
+    <string name="grocery_app_header">Welcome to Grocery Store</string>
+    <string name="grocery_button_text">Grocery</string>
+    <string name="grocery_product_name">Product Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="list_header_image">List Header Image</string>
+    <string name="sports_button_text">Sports</string>
+    <string name="sports_app_header_text">Sports Application</string>
+    <string name="sports_header_image">Sports Header Image</string>
+    <string name="sport_image">Sport Image</string>
+    <string name="sport_card_title">Sport Title</string>
 </resources>

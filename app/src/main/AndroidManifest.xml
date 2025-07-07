@@ -13,6 +13,15 @@
         android:theme="@style/Theme.MultiApps"
         tools:targetApi="31">
         <activity
+            android:name=".sports.SportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".grocery.GroceryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".planets.PlanetsActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
