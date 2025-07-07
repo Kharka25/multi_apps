@@ -8,4 +8,10 @@
     <string name="planet_image">Planet Image</string>
     <string name="planet_name">Planet Name</string>
     <string name="moon_count">0 Moon</string>
+    <string name="grocery_app_header">Welcome to Grocery Store</string>
+    <string name="grocerys_button_text">Grocerys</string>
+    <string name="grocery_product_name">Product Name</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="list_header_image">List Header Image</string>
 </resources>
